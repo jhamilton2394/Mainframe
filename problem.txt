@@ -1,0 +1,5 @@
+Problem statement: On the admin dashboard create a new feature that allows the admin to see all registered users. The page should display the user, their associated enterprise, work center, and if they are admin or not. Since enterprise is not a direct user attribute, but an organizational attribute, you will need to traverse the relationship to display the enterprise name. Only users within the current users organization should be displayed. The admin dashboard already has a button named “Users” but the a tag’s href is empty. This is a Django project so you will need to create an html template that extends “base.html” which is located at passdown_project2/theme/templates/base.html. 
+
+The admin dashboard template is located at passdown_project2/passdown/templates/passdown/admin_dashboard.html and you should see the Users button on lines 61 through 65.
+
+The user model and associated models are found in the UserBase app at passdown_project2/UserBase. You will need to create the necessary view, URL’s and template integration.
